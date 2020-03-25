@@ -17,7 +17,7 @@ print(arr)
 import time
 start_time = time.time()
 print("-— %s seconds —-" % (time.time() - start_time))
-
+# Selection sort
 def selection_sort(element):
 
     for i in range(len(element)):
